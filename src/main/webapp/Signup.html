@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center> <h2> New Owner/Customer :Sign-up details</h2> 
+        <form action="Signup.jsp" method="post"> 
+            <table>
+                <tr>
+                    <td>Usertype:</td>
+                    <td><input list="Usertype" name="Usertype"/>
+                        <datalist id="Usertype" >
+                            <option value="CUSTOMER">
+                            <option value="OWNER">
+                            
+                        </datalist>  </td>
+                <p>USERTYPE* must be in capital letters</p>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username"> </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"> </td>
+                </tr>
+            </table>
+            
+            
+            <br/><input type="submit" value="Submit"> </form>
+    </center>
+
+    </body>
+</html>

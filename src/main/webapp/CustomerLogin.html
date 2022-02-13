@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Customer_login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Welcome customer!</h3>
+        <form name="Customeraction" action="Customerlogin.jsp" method="post" >
+            <table>
+                <tr> <td> <em> Personal Information:</em></td></tr>
+                
+                <tr>
+                    <td>Costomer Name</td>
+                    <td><input type="text" id="134434" name="CustomerName" ></td>
+                </tr>
+                <tr>
+                    <td>Email Id</td>
+                   <td><input type="email" name="mailid" id="134435" ></td>
+                </tr>
+                
+                <tr>
+                    <td>Contact No</td>
+                   <td><input type="number" name="contactNO" id="134436"></td>
+                </tr>
+                
+                <tr> <td> <em>House Information:</em></td></tr>
+
+                <tr>
+                    <td>How many rooms you want?</td>
+                   <td><input type="number" name="roomsNO" id="134437"></td>
+                </tr>
+               
+                <tr>
+                    <td>Your City</td>
+                   <td><input type="text" name="City" id="134439"></td>
+                </tr>
+                <tr>
+                   <td>district</td>
+                   <td><input type="text" name="district" id="134449"></td>
+                </tr>
+                <tr>
+                   <td>state</td>
+                   <td><input type="text" name="state" id="134450"></td>
+                </tr>
+                
+                <tr>
+                    <td>Max Rent price per month</td>
+                    <td><input list="Maxrent" name="Maxrent"/>
+                        <datalist id="Maxrent" >
+                            <option value="2500">
+                            <option value="5000">
+                            <option value="10000">
+                            <option value="25000">
+                            <option value="50000">
+                            
+                        </datalist>         
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td> <input type="checkbox" name="CustomerAccept"> Accept terms and conditions.</td>
+                </tr>
+              
+                <tr>
+              
+                    <td>  <input type="submit" > </td>
+                    <td><input type="reset" ></td>
+                </tr>
+            </table>
+             
+             
+            
+        </form>
+    </body>
+</html>
