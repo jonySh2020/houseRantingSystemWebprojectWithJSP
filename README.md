@@ -28,21 +28,12 @@ ISSUE SOLVED------------------------------------------
 
 
 
-
-
 ************************************************** README FOR HOUSE RENTING SYSTEM PROJECT ********************************************
 
 //A java web project on House renting system
 
 ABOUT THE PROJECT
-
-House Renting System: There are three users in this system- Owner, Admin, and
-Customer. The owner is the user who owns the house and wants it to give it for
-rent. The owner will upload all the details of the house, including the number
-of rooms, locality, rent. Admin manages all the users of the system. The customer
-is the one who is looking for a rental house. He can search the house according
-to the requirements and get the results accordingly.
-
+//this is just a begineer level classroom project uses basic understanding of java, jsp, file handling with java, no database knowledge is required.
 
 /* default password for ADMIN login:
 USERNAME="admin" PASSWORD="Myhome"
